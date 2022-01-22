@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@500&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#container {
+  position: relative;
+  height: 700px;
+}
+
+.card {
+  border: 1px solid #000;
+  background: #fff;
+  width: 120px;
+  height: 175px;
+  margin: 5px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  transition: top 300ms linear, left 300ms linear;
+}
+
+.card.red {
+  color: red;
+}
+
+.card .number {
+  position: absolute;
+  font-size: 2rem;
+}
+.card .left.number {
+  top: 10px;
+  left: 10px;
+}
+
+.card .right.number {
+  bottom: 10px;
+  right: 10px;
+}
+
+.card .suit {
+  font-size: 3.5rem;
+}
